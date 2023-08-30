@@ -1,0 +1,66 @@
+
+ @media only screen and (max-width: 1143px){
+    .nav-list{
+        flex-direction: column;
+    }
+
+    .navbar{
+        height: 450px;
+        flex-direction: column;
+        transition: all 0.5s ease-out ;
+        position: fixed;
+    }
+
+    .rightnav{
+        width: 33%;
+        text-align: center;
+        position: relative;
+    }
+    .bg{
+        background-color: #0b0b0b;
+    }
+    #search{
+        width: 100%;
+    }
+    
+    .burger{
+        display: block;
+    }
+
+    .navheight-resp{
+        height:60px ;
+    }
+    .vclass-resp{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    .section{
+        flex-direction: column-reverse;
+    }
+    .textsmall{
+        text-align: center;
+    }
+    .textbig{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+
+    .paras{
+        padding: 0px;
+    }
+    #sponsers{
+        height: 700px;
+    }
+    #sponser{
+        flex-direction: column;
+    }
+    .spimg{
+        margin: 40px;
+    }
+ }
